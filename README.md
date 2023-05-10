@@ -1,6 +1,6 @@
 # rpicam-etom
 
-## Install:
+## How to Install:
 ### Update & Upgrade
 ```bash
 sudo apt-get update && sudo apt-get upgrade -y
@@ -15,7 +15,7 @@ sudo raspi-config
 sudo reboot
 ```
 
-### Install:
+### Install RPi Cam Web interface repo:
 ```bash
 sudo apt-get install git -y # install git
 git clone https://github.com/silvanmelchior/RPi_Cam_Web_Interface.git # clone RPi Cam Web interface repo
