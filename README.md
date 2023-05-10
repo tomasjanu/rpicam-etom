@@ -25,3 +25,9 @@ cd RPi_Cam_Web_Interface
 sudo sed -i '3s|DocumentRoot /var/www|DocumentRoot /var/www/html|' /etc/apache2/sites-available/raspicam.conf # change DocumentRoot
 sudo systemctl restart apache2 # restart apache2
 ```
+
+### Motion notification to Discord channel
+```bash
+# Put end_box.sh into macros folder
+sudo chmod +x end_box.sh
+sudo chown www-data:www-data end_box.sh
